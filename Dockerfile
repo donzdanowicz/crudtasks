@@ -10,4 +10,4 @@ RUN ./gradlew build --no-daemon
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "build/libs/tasks-1.0-SNAPSHOT.jar"]
+CMD ["java", "-jar", "build/libs/crudtasks.jar"]
